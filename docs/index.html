@@ -32,7 +32,7 @@
       </p>
     
         <p class="header-col header-col--secondary">
-          <a class="header-link" href="https://github.com/IBM-Swift/swift-html-entities">
+          <a class="header-link" href="https://github.com/Kitura-Next/swift-html-entities">
             <img class="header-icon" src="img/gh.png"/>
             View on GitHub
           </a>
@@ -77,11 +77,11 @@
             
             <h1 id='htmlentities' class='heading'>HTMLEntities</h1>
 
-<p><a href="https://travis-ci.org/IBM-Swift/swift-html-entities"><img src="https://api.travis-ci.org/IBM-Swift/swift-html-entities.svg?branch=master" alt="Build Status - Master"></a>
+<p><a href="https://travis-ci.org/Kitura-Next/swift-html-entities"><img src="https://api.travis-ci.org/Kitura-Next/swift-html-entities.svg?branch=master" alt="Build Status - Master"></a>
 <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" alt="macOS">
 <img src="https://img.shields.io/badge/os-linux-green.svg?style=flat" alt="Linux">
 <img src="https://img.shields.io/badge/license-Apache2-blue.svg?style=flat" alt="Apache 2">
-<a href="https://codecov.io/gh/IBM-Swift/swift-html-entities"><img src="https://codecov.io/gh/IBM-Swift/swift-html-entities/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://codecov.io/gh/Kitura-Next/swift-html-entities"><img src="https://codecov.io/gh/Kitura-Next/swift-html-entities/branch/master/graph/badge.svg" alt="codecov"></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a></p>
 <h2 id='summary' class='heading'>Summary</h2>
 
@@ -94,7 +94,7 @@
 <p>In addition, <code>HTMLEntities</code> can unescape encoded HTML text that contains decimal, hexadecimal, or HTML5 named character references.</p>
 <h2 id='api-documentation' class='heading'>API Documentation</h2>
 
-<p>API documentation for <code>HTMLEntities</code> is located <a href="https://ibm-swift.github.io/swift-html-entities/">here</a>.</p>
+<p>API documentation for <code>HTMLEntities</code> is located <a href="https://kitura-next.github.io/swift-html-entities/">here</a>.</p>
 <h2 id='features' class='heading'>Features</h2>
 
 <ul>
@@ -118,7 +118,7 @@
 <span class="k">let</span> <span class="nv">package</span> <span class="o">=</span> <span class="kt">Package</span><span class="p">(</span>
   <span class="nv">name</span><span class="p">:</span> <span class="s">"&lt;package-name&gt;"</span><span class="p">,</span>
   <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
-    <span class="o">.</span><span class="kt">Package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/IBM-Swift/swift-html-entities.git"</span><span class="p">,</span> <span class="nv">majorVersion</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="nv">minor</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="o">.</span><span class="kt">Package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/Kitura-Next/swift-html-entities.git"</span><span class="p">,</span> <span class="nv">majorVersion</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="nv">minor</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
   <span class="p">]</span>
 <span class="p">)</span>
 </code></pre>
@@ -130,7 +130,7 @@
   <span class="nv">name</span><span class="p">:</span> <span class="s">"&lt;package-name&gt;"</span><span class="p">,</span>
   <span class="o">...</span>
   <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
-    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/IBM-Swift/swift-html-entities.git"</span><span class="p">,</span> <span class="o">.</span><span class="nf">upToNextMajor</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="s">"3.0.0"</span><span class="p">)</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/Kitura-Next/swift-html-entities.git"</span><span class="p">,</span> <span class="o">.</span><span class="nf">upToNextMajor</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="s">"3.0.0"</span><span class="p">)</span>
   <span class="p">]</span>
   <span class="c1">// Also, make sure to add HTMLEntities to your package target's dependencies</span>
 <span class="p">)</span>
@@ -139,13 +139,13 @@
 
 <p>Add <code>HTMLEntities</code> to your <code>Podfile</code>:</p>
 <pre class="highlight plaintext"><code>target '&lt;project-name&gt;' do
-  pod 'HTMLEntities', :git =&gt; 'https://github.com/IBM-Swift/swift-html-entities.git'
+  pod 'HTMLEntities', :git =&gt; 'https://github.com/Kitura-Next/swift-html-entities.git'
 end
 </code></pre>
 <h3 id='via-carthage' class='heading'>Via Carthage</h3>
 
 <p>Add <code>HTMLEntities</code> to your <code>Cartfile</code>:</p>
-<pre class="highlight plaintext"><code>github "IBM-Swift/swift-html-entities"
+<pre class="highlight plaintext"><code>github "Kitura-Next/swift-html-entities"
 </code></pre>
 <h2 id='usage' class='heading'>Usage</h2>
 <pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">HTMLEntities</span>
@@ -276,7 +276,7 @@ end
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://github.com/IBM-Swift/swift-html-entities" target="_blank" rel="external">IBM</a>. All rights reserved. (Last updated: 2017-10-02)</p>
+      <p>&copy; 2017 <a class="link" href="https://github.com/Kitura-Next/swift-html-entities" target="_blank" rel="external">IBM</a>. All rights reserved. (Last updated: 2017-10-02)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

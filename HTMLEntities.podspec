@@ -34,7 +34,7 @@ Includes support for HTML5 named character references. You can find the list of 
 In addition, `HTMLEntities` can unescape encoded HTML text that contains decimal, hexadecimal, or HTML5 named character references.
                    DESC
 
-  s.homepage     = "https://github.com/IBM-Swift/swift-html-entities"
+  s.homepage     = "https://github.com/Kitura-Next/swift-html-entities"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -83,7 +83,7 @@ In addition, `HTMLEntities` can unescape encoded HTML text that contains decimal
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/IBM-Swift/swift-html-entities.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Kitura-Next/swift-html-entities.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

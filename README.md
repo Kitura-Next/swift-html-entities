@@ -1,10 +1,10 @@
 # HTMLEntities
 
-[![Build Status - Master](https://api.travis-ci.org/IBM-Swift/swift-html-entities.svg?branch=master)](https://travis-ci.org/IBM-Swift/swift-html-entities)
+[![Build Status - Master](https://api.travis-ci.org/Kitura-Next/swift-html-entities.svg?branch=master)](https://travis-ci.org/Kitura-Next/swift-html-entities)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 ![Linux](https://img.shields.io/badge/os-linux-green.svg?style=flat)
 ![Apache 2](https://img.shields.io/badge/license-Apache2-blue.svg?style=flat)
-[![codecov](https://codecov.io/gh/IBM-Swift/swift-html-entities/branch/master/graph/badge.svg)](https://codecov.io/gh/IBM-Swift/swift-html-entities)
+[![codecov](https://codecov.io/gh/Kitura-Next/swift-html-entities/branch/master/graph/badge.svg)](https://codecov.io/gh/Kitura-Next/swift-html-entities)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Summary
@@ -18,7 +18,7 @@ In addition, `HTMLEntities` can unescape encoded HTML text that contains decimal
 
 ## API Documentation
 
-API documentation for `HTMLEntities` is located [here](https://ibm-swift.github.io/swift-html-entities/).
+API documentation for `HTMLEntities` is located [here](https://kitura-next.github.io/swift-html-entities/).
 
 ## Features
 
@@ -45,7 +45,7 @@ let package = Package(
   name: "<package-name>",
   ...
   dependencies: [
-    .package(url: "https://github.com/IBM-Swift/swift-html-entities.git", from: "3.0.0")
+    .package(url: "https://github.com/Kitura-Next/swift-html-entities.git", from: "3.0.0")
   ]
   // Also, make sure to add HTMLEntities to your package target's dependencies
 )
@@ -57,7 +57,7 @@ Add `HTMLEntities` to your `Podfile`:
 
 ```
 target '<project-name>' do
-  pod 'HTMLEntities', :git => 'https://github.com/IBM-Swift/swift-html-entities.git'
+  pod 'HTMLEntities', :git => 'https://github.com/Kitura-Next/swift-html-entities.git'
 end
 ```
 
@@ -66,7 +66,7 @@ end
 Add `HTMLEntities` to your `Cartfile`:
 
 ```
-github "IBM-Swift/swift-html-entities"
+github "Kitura-Next/swift-html-entities"
 ```
 
 ## Usage
